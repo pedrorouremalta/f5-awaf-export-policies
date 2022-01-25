@@ -1,7 +1,11 @@
 # f5-awaf-export-policies
 A small script to export all AWAF policies from a BIG-IP device.
 
-This script leverages BIG-IP iControl REST API to export ALL AWAF policies in the system and saves them locally. The policies can be exported in the following format: xml, plc and json (version 16.X only). 
+This script leverages BIG-IP iControl REST API to export ALL AWAF policies in the system and saves them locally. The policies can be exported in the following formats: xml, plc and json.
+
+Note: JSON format only works with TMOS version 16.x. 
+
+Tested with BIG-IP 16.1 but should work with older versions. 
 
 # Usage
 
